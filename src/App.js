@@ -1,23 +1,49 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from './components/ui/button';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "./components/ui/card";
+import { Input } from "./components/ui/input";
+import { Textarea } from "./components/ui/textarea"
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button variant="primary">hello</Button>
+
+      <Card className="card-cont">
+        <CardHeader>
+          <CardTitle>Feedback Form</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <Input className="email-field" placeholder="Email" />
+          <Textarea className="textarea" placeholder="Your feedback..." />
+        </CardContent>
+        <CardFooter>
+          <Button variant="primary" className="form-btn">Send</Button>
+        </CardFooter>
+      </Card>
+
+      <nav>
+        <img src="./" alt="logo" />
+
+        <div className='links-cont'>
+          <Button variant="link">Product</Button>
+          <Button variant="link">About</Button>
+          <Button variant="link">Contact</Button>
+        </div>
+
+        <Button variant="primary">Signup</Button>
+      </nav>
+
     </div>
   );
 }
