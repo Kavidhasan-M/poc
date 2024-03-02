@@ -1,40 +1,40 @@
-.App{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
-  height: 100vh;
-  padding: 15%;
-}
-
-.email-field{
-  margin-bottom: 16px;
-  background-color: #fff;
-}
-
-.textarea{
-  background-color: #fff;
-
-}
-
-.card-cont{
-  width: 400px;
-  box-shadow: none;
-  border: none;
-  background-color: #f4f4f4;
-}
-
-.form-btn{
-  width: 100%;
-  border-radius: 0px;
-  background-color: brown;
-}
-
 nav{
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #888;
-  padding: 16px;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 24px;
+}
+
+.nav-left{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 500px;
+}
+
+
+.nav-right{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.links-cont ul{
+    margin-top: 24px;
+}
+
+.links-cont ul li{
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.links-cont ul li:hover{
+    background-color: #f4f4f4;
+}
+
+.links-cont ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
 }
