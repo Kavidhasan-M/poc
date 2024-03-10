@@ -16,6 +16,9 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      sans: ['"inter"', 'sans-serif']
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -26,6 +29,11 @@ module.exports = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+        },
+        mycolor: {
+          DEFAULT: "#888",
+          foreground: "#ffffff",
+
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -85,6 +93,7 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      
     },
   },
   plugins: [require("tailwindcss-animate")],

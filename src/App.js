@@ -69,7 +69,7 @@ import {
 function App() {
   return (
     <div className="App">
-     <nav className='fixed h-[60px] top-0 left-0 right-0 border-b z-10 bg-[#fff]'>
+     <nav className='fixed h-[60px] top-0 left-0 right-0 border-[var(--light--gray--40)] z-10 bg-[#fff]'>
 
       <div className='nav-left'>
         <Sheet>
@@ -186,7 +186,10 @@ function App() {
                 your feed exactly how you like it, and a shiny new visual design. ✨</p>
             </CardContent>
             <CardFooter>
-              <Button variant="link" className="p-0 text-blue-600">Learn more</Button>
+              <Button variant="link" className="p-0 text-blue-600">
+                
+
+              </Button>
             </CardFooter>
           </Card>
           

@@ -4,7 +4,7 @@
  
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* --background: 0 0% 100%;
     --foreground: 224 71.4% 4.1%;
 
     --card: 0 0% 100%;
@@ -30,9 +30,111 @@
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 224 71.4% 4.1%;
+    --ring: 224 71.4% 4.1%; */
  
     --radius: 0.5rem;
+
+    /* Color styles */
+      --light--base---black: #2C2C2C;
+      --light--base---white: #FFFFFF;
+      --light--primary--60: #11319F;
+      --light--primary---base: #2952E1;
+      --light--primary--40: #496EF1;
+      --light--primary--30: #829CF6;
+      --light--primary--20: #D0DEF5;
+      --light--primary--10: #F3F8FF;
+      --light--gray--60: #565656;
+      --light--gray---base: #979797;
+      --light--gray--40: #C6C6C6;
+      --light--gray--30: #D9D9D9;
+      --light--gray--20: #E8E8E8;
+      --light--gray--10: #F6F6F6;
+      --light--yellow--60: #9A7A08;
+      --light--yellow---base: #B89108;
+      --light--yellow--40: #CDB14F;
+      --light--yellow--30: #E9D180;
+      --light--yellow--20: #F3E7BC;
+      --light--yellow--10: #FFFFF5;
+      --light--green--60: #09714B;
+      --light--green---base: #20BF86;
+      --light--green--40: #75E093;
+      --light--green--30: #C1FFBC;
+      --light--green--20: #E9FFE9;
+      --light--green--10: #F5FFF8;
+      --light--purple--60: #992B9B;
+      --light--purple---base: #C93CCC;
+      --light--purple--40: #E075D5;
+      --light--purple--30: #F6BCFF;
+      --light--purple--20: #FCE9FF;
+      --light--purple--10: #FFF5FF;
+      --light--red--60: #97241D;
+      --light--red--40: #E07B75;
+      --light--red---base: #CC453C;
+      --light--red--30: #FFBCBC;
+      --light--red--20: #FFEAE9;
+      --light--red--10: #FFF6F5;
+      --dark--base---black: #EEEEEE;
+      --dark--base---white: #2B2B2B;
+      --dark--primary--60: #7590F3;
+      --dark--primary---base: #5672D8;
+      --dark--primary--40: #3B54AF;
+      --dark--primary--30: #232D51;
+      --dark--primary--20: #171B28;
+      --dark--primary--10: #101216;
+      --dark--gray--60: #D6D6D6;
+      --dark--gray---base: #929292;
+      --dark--gray--40: #555555;
+      --dark--gray--30: #333333;
+      --dark--gray--20: #242424;
+      --dark--gray--10: #151515;
+      --dark--yellow--60: #F3DC89;
+      --dark--yellow---base: #D1BC50;
+      --dark--yellow--40: #9A8F28;
+      --dark--yellow--30: #62540D;
+      --dark--yellow--20: #493E15;
+      --dark--yellow--10: #352E1B;
+      --dark--green--60: #98F389;
+      --dark--green---base: #50D16C;
+      --dark--green--40: #289A33;
+      --dark--green--30: #0D6215;
+      --dark--green--20: #1C4915;
+      --dark--green--10: #28351B;
+      --dark--purple--60: #F389E9;
+      --dark--purple---base: #CF50D1;
+      --dark--purple--40: #98289A;
+      --dark--purple--30: #600D62;
+      --dark--purple--20: #421549;
+      --dark--purple--10: #351B33;
+      --dark--red--60: #F39089;
+      --dark--red--base: #D15951;
+      --dark--red--40: #9A2828;
+      --dark--red--30: #620D0D;
+      --dark--red--20: #491515;
+      --dark--red--10: #351B1B;
+    
+      /* Text-size styles */
+      --display--l: 56px;
+      --display--m: 48px;
+      --display--s: 36px;
+      --heading--h1: 32px;
+      --heading--h2: 24px;
+      --heading--h3: 20px;
+      --heading--h4: 16px;
+      --heading--h5: 14px;
+      --heading--h6: 12px;
+      --title--16: 16px;
+      --title--14: 14px;
+      --paragraph--14: 14px;
+      --paragraph--12: 12px;
+      --paragraph--10: 10px;
+    
+      /* Effect styles */
+      --bottom--nav--shadow: 0px -2px 2px rgba(0, 0, 0, 0.15);
+      --selector--hover: 0px 0px 1px rgba(130, 156, 246, 0.25);
+      --card---l: 0px 2px 24px rgba(41, 82, 225, 0.25);
+      --card---s: 0px 2px 8px rgba(41, 82, 225, 0.15);
+
+      
   }
  
   .dark {
